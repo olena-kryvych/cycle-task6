@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task6</title>
+</head>
+<body>
+    <script>
+        var a = prompt("Введіть число a", "");
+        var b = prompt("Введіть число b", "");
+    if (a < b) {
+        for(var i = a; i <= b; i++){
+            var res = "";
+        for(var j = i - a; j >= 0; j--)
+            res += i;
+        console.log(res);
+        }
+    } else {
+        alert("помилка")
+        }
+    </script>
+</body>
+</html>
